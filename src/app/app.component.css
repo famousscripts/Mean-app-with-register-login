@@ -1,0 +1,15 @@
+img.customimg {
+    width: 94%!important;
+    margin: 0 0 0 13px!important;
+}
+img.img-responsive.customimg {
+    width: 94%;
+    margin: 0 0 0 10px;
+}
+.row h1 {
+    line-height: 50px;
+    text-align: left;
+    padding: 15px 0 15px 0;
+    font-size: 32px;
+    font-family: sans-serif;
+}

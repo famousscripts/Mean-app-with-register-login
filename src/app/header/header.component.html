@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-between">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4"><a routerLink="/"><img class="img-responsive" class="img-responsive customimg"  width="100%" height="auto" src="assets/images/logo.png"></a></div>
+          <div class="col-md-8 navbar">
+                <!-- Links -->
+                <ul class="navbar-nav vertical-align">
+                    <li class="nav-item" *ngIf="!userIsAuthenticated">
+                        <a class="nav-link"  routerLink="/">Home</a>
+                      </li>
+                  <li class="nav-item" *ngIf="!userIsAuthenticated">
+                    <a class="nav-link" routerLinkActive="active" routerLink="/login">Login</a>
+                  </li>
+                  <li class="nav-item" *ngIf="!userIsAuthenticated">
+                    <a class="nav-link" routerLinkActive="active" routerLink="/register">Sign Up</a>
+                  </li>
+                  <li class="nav-item" *ngIf="userIsAuthenticated">
+                    <button (click)="onLogout()">Logout</button>
+                  </li>
+                </ul>
+          </div>
+  </div>
+  </div>
+
+</nav>
+
+
+

@@ -1,0 +1,16 @@
+.bg-dark {
+    background-color: #1B426D!important;
+}
+
+.text-center {
+    text-align: center !important;
+    color: #88939e;
+}
+.text-center a {
+        color: #0faaa3;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}

@@ -1,4 +1,22 @@
-# Chatapp
+# Mean App with Register & Login with Localstorage:
+
+Note :  How to run this code -
+
+1. Take all files from here make your own directory
+
+2. Open CMD and run this command like your directory name is : myapp then 
+
+3. run command like this : myapp>npm install
+
+4. After install open mongo shell and run mongod there (if any problem then write us with : famousscript@gmail.com).
+
+5. Then open another node shell and write like myapp>node server.js
+
+7. Then after (step 3) npm install run this command like this : npm start in your directory.
+
+8. Then open http://localhost:4200/ in front end.
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
